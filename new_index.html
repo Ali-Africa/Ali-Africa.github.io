@@ -1,0 +1,68 @@
+<html>
+   
+        
+<head>
+        <title>H080.5</title>
+        <!-- Latest compiled and minified CSS -->
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        
+
+       <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./style2.css">
+        
+      <style>
+            .background-image {
+                background-image: url('HoboShot.jpg');
+                width: 200px;
+                height: 200px;
+                background-size: contain;
+                background-repeat: no repeat;
+            }
+    </style>  
+    </head>
+
+  
+    
+    <body >
+        
+        <nav>
+            <div class="logo"> H080.5</div> 
+            <div class="nav-items">
+                <a href="/"Projects></a>
+                <a href="/"Drone Shots></a>
+                <a href="/"Gallery></a>
+                
+               </div>
+        
+        </nav>
+        
+        <div class="background-image">
+            <img src= background_image/>
+        </div>
+
+
+        <h1 class="headline">Come With An Open Mind</h1>
+       
+        
+
+    </body>
+    
+    
+    
+     
+       
+    <script>
+
+		$('.jobLabel a').on('click', function(){
+            var target = $(this).attr('rel');
+            $("#"+target).show().siblings("div").hide();
+		});
+    </script>
+    
+</html>
